@@ -20,7 +20,7 @@ const tokenomics = [
     {
         "id": 4,
         "heading": "Liquidity Aggregation",
-        "description": "MGNX routes positions to the best liquidity sources to fulfill desired volumes.",
+        "description": "MMM routes positions to the best liquidity sources to fulfill desired volumes.",
         "image": "toke-4.svg"
     },
     {

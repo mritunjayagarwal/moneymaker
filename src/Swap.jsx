@@ -99,7 +99,7 @@ function Swap() {
     </nav>
       <div className="Uniswap">
         <div style={{marginTop: "50px"}}>
-          <div className='section-heading swap-heading' style={{ "margin-bottom": "20px" }}><span className='section-highlight'>MGNX</span> AGGREGATOR</div>
+          <div className='section-heading swap-heading' style={{ "margin-bottom": "20px" }}><span className='section-highlight'>MMM</span> AGGREGATOR</div>
           <p className='text-center swap-paragraph mx-auto'>Seamless, secure asset exchanges. Connect your wallet and elevate your trading experience.</p>
           <div className='d-flex align-items-center justify-content-center mt-5'>
             <div className='swap-wrap'>
