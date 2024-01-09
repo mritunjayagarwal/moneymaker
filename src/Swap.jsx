@@ -102,10 +102,14 @@ function Swap() {
           <div className='section-heading swap-heading' style={{ "margin-bottom": "20px" }}><span className='section-highlight'>MMM</span> SWAP</div>
           <p className='text-center swap-paragraph mx-auto'>Seamless, secure asset exchanges. Connect your wallet and elevate your trading experience.</p>
           <div className='d-flex align-items-center justify-content-center mt-5'>
-            <iframe id="dextswap-aggregator-widget"
-              title="DEXTswap Aggregator"
-              width="400"
-              height="420" src="https://www.dextools.io/widget-aggregator/en/swap/eth/0xfb7b4564402e5500db5bb6d63ae671302777c75a"></iframe>
+            <div className='swap-wrap'>
+              <div className='h-100'>
+                <iframe id="dextswap-aggregator-widget"
+                  title="DEXTswap Aggregator"
+                  width="100%" height="100%" style = {{border: "unset"}} src="https://www.dextools.io/widget-aggregator/en/swap/eth/0xfb7b4564402e5500db5bb6d63ae671302777c75a"></iframe>
+              </div>
+              {/* <div style = {{"position":"absolute", "background": "#000", "height": "20px", "width": "26vw", "bottom": "15px", "left": "20px"}}></div> */}
+            </div>
           </div>
         </div>
         <img src={require(`./Img/home/hero-bottom.png`)} className='mt-5' style={{ "width": "100%" }} alt="" />
