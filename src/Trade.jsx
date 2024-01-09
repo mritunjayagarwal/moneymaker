@@ -191,10 +191,10 @@ const Trade = () => {
                                     <div className='mt-3 px-2'>
                                         <div className='d-flex justify-content-between'>
                                             <div>
-                                                <p>Available Liquidity</p>
+                                                <p>Launching on</p>
                                             </div>
                                             <div>
-                                                <p>17,828.6975 ETH</p>
+                                                <p>15th January, 2024</p>
                                             </div>
                                         </div>
                                         <div className='d-flex justify-content-between'>
