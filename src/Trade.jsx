@@ -205,38 +205,6 @@ const Trade = () => {
                                                 <p><img src={require('./Img/logo.png')} style = {{width: "20px"}} alt="" /></p>
                                             </div>
                                         </div>
-                                        <div className='d-flex justify-content-between'>
-                                            <div>
-                                                <p>Available Liquidity</p>
-                                            </div>
-                                            <div>
-                                                <p>17,828.6975 ETH</p>
-                                            </div>
-                                        </div>
-                                        <div className='d-flex justify-content-between'>
-                                            <div>
-                                                <p>Available Liquidity</p>
-                                            </div>
-                                            <div>
-                                                <p>17,828.6975 ETH</p>
-                                            </div>
-                                        </div>
-                                        <div className='d-flex justify-content-between'>
-                                            <div>
-                                                <p>Available Liquidity</p>
-                                            </div>
-                                            <div>
-                                                <p>17,828.6975 ETH</p>
-                                            </div>
-                                        </div>
-                                        <div className='d-flex justify-content-between'>
-                                            <div>
-                                                <p>Available Liquidity</p>
-                                            </div>
-                                            <div>
-                                                <p>17,828.6975 ETH</p>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
