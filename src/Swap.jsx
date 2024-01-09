@@ -64,52 +64,48 @@ function Swap() {
 
   return (
     <div>
-    <nav className="navbar navbar-expand-md navbar-dark bg-transparent">
-      <div className='container'>
-        <a className="navbar-brand" href="/"><img src={require('./Img/logo.png')} style={{ "width": "80px" }} alt="" /></a>
-        <button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+      <nav className="navbar navbar-expand-md navbar-dark bg-transparent">
+        <div className='container'>
+          <a className="navbar-brand" href="/"><img src={require('./Img/logo.png')} style={{ "width": "80px" }} alt="" /></a>
+          <button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
-          
-          </ul>
-          <div>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="/">Docs <span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="https://t.me/MMakerMarkets">Community</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/swap">Swap</a>
-            </li>
-            <li className="nav-item mr-3">
-              <a className="nav-link" href="/trade">Launch App</a>
-            </li>
-              <li className="nav-item">
-              <a className='nav-link btn hero-btn' onClick={connectWallet} style = {{color: "#fff", padding: "0.4em 0.5em"}}>{connected ? 'Wallet Connected': 'Connect Wallet'}</a>
-              </li>
+
             </ul>
+            <div>
+              <ul className="navbar-nav mr-auto">
+                <li className="nav-item active">
+                  <a className="nav-link" href="/">Docs <span className="sr-only">(current)</span></a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="https://t.me/MMakerMarkets">Community</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/swap">Swap</a>
+                </li>
+                <li className="nav-item mr-3">
+                  <a className="nav-link" href="/trade">Launch App</a>
+                </li>
+                <li className="nav-item">
+                  <a className='nav-link btn hero-btn' onClick={connectWallet} style={{ color: "#fff", padding: "0.4em 0.5em" }}>{connected ? 'Wallet Connected' : 'Connect Wallet'}</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
       <div className="Uniswap">
-        <div style={{marginTop: "50px"}}>
+        <div style={{ marginTop: "50px" }}>
           <div className='section-heading swap-heading' style={{ "margin-bottom": "20px" }}><span className='section-highlight'>MMM</span> SWAP</div>
           <p className='text-center swap-paragraph mx-auto'>Seamless, secure asset exchanges. Connect your wallet and elevate your trading experience.</p>
           <div className='d-flex align-items-center justify-content-center mt-5'>
-            <div className='swap-wrap'>
-              <div>
-                <SwapWidget
-                  provider={account.provider}
-                  JsonRpcEndpoint={JsonRpcEndpoint} width="100%" height="100%" theme={theme} hideConnectionUI = {true} />
-              </div>
-              {/* <div style = {{"position":"absolute", "background": "#000", "height": "20px", "width": "26vw", "bottom": "15px", "left": "20px"}}></div> */}
-            </div>
+            <iframe id="dextswap-aggregator-widget"
+              title="DEXTswap Aggregator"
+              width="400"
+              height="420" src="https://www.dextools.io/widget-aggregator/en/swap/eth/0xfb7b4564402e5500db5bb6d63ae671302777c75a" sandbox=''></iframe>
           </div>
         </div>
         <img src={require(`./Img/home/hero-bottom.png`)} className='mt-5' style={{ "width": "100%" }} alt="" />
