@@ -24,7 +24,7 @@ const Home = () => {
                   </AnimationOnScroll>
                   <AnimationOnScroll animateIn="animate__fadeIn">
                     <p>Trade cryptocurrencies effortlessly with no price influence, leveraging up to 100x, and unified liquidity. The Money Maker manages the intricate details, guaranteeing you a streamlined DEX trading experience on our platform.</p>
-                    <p>Contract Address: TBA</p>
+                    <p style = {{wordBreak: "break-word"}}>Contract Address: 0x92a804ffd1961d1f08be68322d83bfd540a49340</p>
                   </AnimationOnScroll>
                   <a href="https://moneymaker.markets/trade"><button className='btn hero-btn mb-5'>Start Trading</button></a>
                 </div>
