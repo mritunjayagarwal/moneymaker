@@ -81,7 +81,7 @@ function Swap() {
               <a className="nav-link" href="/">Docs <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://t.me/marginetwork">Community</a>
+              <a className="nav-link" href="https://t.me/MMakerMarkets">Community</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/swap">Swap</a>
