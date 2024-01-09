@@ -105,7 +105,7 @@ function Swap() {
             <iframe id="dextswap-aggregator-widget"
               title="DEXTswap Aggregator"
               width="400"
-              height="420" src="https://www.dextools.io/widget-aggregator/en/swap/eth/0xfb7b4564402e5500db5bb6d63ae671302777c75a" sandbox=''></iframe>
+              height="420" src="https://www.dextools.io/widget-aggregator/en/swap/eth/0xfb7b4564402e5500db5bb6d63ae671302777c75a"></iframe>
           </div>
         </div>
         <img src={require(`./Img/home/hero-bottom.png`)} className='mt-5' style={{ "width": "100%" }} alt="" />
