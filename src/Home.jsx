@@ -25,7 +25,7 @@ const Home = () => {
                   <AnimationOnScroll animateIn="animate__fadeIn">
                     <p>Trade cryptocurrencies effortlessly with no price influence, leveraging up to 100x, and unified liquidity. The Money Maker manages the intricate details, guaranteeing you a streamlined DEX trading experience on our platform.</p>
                   </AnimationOnScroll>
-                  <button className='btn hero-btn mb-5'>Start Trading</button>
+                  <a href="https://moneymaker.markets/trade"><button className='btn hero-btn mb-5'>Start Trading</button></a>
                 </div>
               </div>
               <div className='col-lg-6 d-flex align-items-center justify-content-center'>
@@ -171,7 +171,7 @@ const Home = () => {
         </section>
         <section>
           <div className='container'>
-            <h1 className='text-center section-heading section-highlight'>Backers</h1>
+            <h1 className='text-center section-heading section-highlight'>Liquidity Partners</h1>
             <div className='row mt-5'>
               <div className='col-lg-3 col-md-4 col-6 text-center'>
                 <AnimationOnScroll animateIn="animate__fadeIn">

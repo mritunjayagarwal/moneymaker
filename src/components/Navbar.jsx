@@ -20,7 +20,7 @@ const Navbar = () => {
                 <a className="nav-link" href={whitepaper} target = "_blank">Docs</a>
               </li>
               <li className="nav-item mr-3">
-                <a className="nav-link" href="https://t.me/marginetwork">Community</a>
+                <a className="nav-link" href="https://t.me/MMakerMarkets">Community</a>
               </li>
               <li className="nav-item mr-3">
                 <a className="nav-link" href="/swap">Swap</a>
