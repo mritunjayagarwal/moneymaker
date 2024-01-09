@@ -65,9 +65,6 @@ const Trade = () => {
                             <a className="nav-link" href="/swap">Liquidity</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/trade">Stake</a>
-                        </li>
-                        <li className="nav-item">
                             <a className="nav-link" href="/trade">Leaderboard</a>
                         </li>
                     </ul>
